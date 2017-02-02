@@ -134,9 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/xiaomi/wt88047/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/xiaomi/wt88047/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/xiaomi/wt88047/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/wt88047/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/wt88047/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
