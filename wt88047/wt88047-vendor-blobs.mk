@@ -136,8 +136,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/wt88047/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/wt88047/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/xiaomi/wt88047/proprietary/lib/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/xiaomi/wt88047/proprietary/lib/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/xiaomi/wt88047/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/xiaomi/wt88047/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
