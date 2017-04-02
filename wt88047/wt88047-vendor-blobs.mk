@@ -162,24 +162,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/wt88047/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/wt88047/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/wt88047/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/xiaomi/wt88047/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/wt88047/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/wt88047/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/wt88047/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
