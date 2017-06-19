@@ -353,7 +353,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wt88047/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/wt88047/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/wt88047/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/xiaomi/wt88047/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/wt88047/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/wt88047/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
