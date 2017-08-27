@@ -364,8 +364,13 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_yamaha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_yamaha.so
 
 #PRODUCT_COPY_FILES += \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_gyroscope.so
+#    vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
+#    vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_gyroscope.so
+
+
+# STLport - from flo
+PRODUCT_COPY_FILES += \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so
 
 
 # Thermal - from crackling
