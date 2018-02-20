@@ -25,21 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 
 PRODUCT_COPY_FILES += \
-    vendor/wingtech/wt88047/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/wingtech/wt88047/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/wingtech/wt88047/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/wingtech/wt88047/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/wingtech/wt88047/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/wingtech/wt88047/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/wingtech/wt88047/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/wingtech/wt88047/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/wingtech/wt88047/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/wingtech/wt88047/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/wingtech/wt88047/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/wingtech/wt88047/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/wingtech/wt88047/proprietary/bin/radish:system/bin/radish \
-    vendor/wingtech/wt88047/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/wingtech/wt88047/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wingtech/wt88047/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/wingtech/wt88047/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/wingtech/wt88047/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
@@ -55,8 +40,23 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/wingtech/wt88047/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/wingtech/wt88047/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/radish:system/vendor/bin/radish \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/wingtech/wt88047/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/wingtech/wt88047/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
