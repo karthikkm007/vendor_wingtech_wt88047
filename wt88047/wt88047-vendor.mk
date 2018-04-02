@@ -33,22 +33,17 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/wingtech/wt88047/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/wingtech/wt88047/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/wingtech/wt88047/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/wingtech/wt88047/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/wingtech/wt88047/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/wingtech/wt88047/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/wingtech/wt88047/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/wingtech/wt88047/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/wingtech/wt88047/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
@@ -72,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -145,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -157,22 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsvideocodec.so:system/vendor/lib/lib-imsvideocodec.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsvtextutils.so:system/vendor/lib/lib-imsvtextutils.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsvtutils.so:system/vendor/lib/lib-imsvtutils.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -238,10 +215,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -251,10 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
@@ -262,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -271,8 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0.so
 
 PRODUCT_PACKAGES += \
-    ims \
-    imscmlibrary \
     libloc_api_v02 \
     libloc_ds_api \
     libmm-abl \
@@ -281,4 +248,4 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook
+    qcrilhook 
