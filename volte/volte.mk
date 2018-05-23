@@ -33,24 +33,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
-# libshims
-PRODUCT_PACKAGES += \
-   libshim_parcel \
-   libshim_boringssl \
-   libshims_camera \
-   libshims_ims
-
-# Ramdisk
-PRODUCT_COPY_FILES += \
-    vendor/wingtech/volte/ramdisk/init.qti.ims.sh:root/init.qti.ims.sh
-
-ifeq ($(FORCE_32_BIT),true)
-PRODUCT_COPY_FILES += \
-    vendor/wingtech/volte/ramdisk/init.qcom.ims-32.rc:root/init.qcom.ims.rc
-else
-PRODUCT_COPY_FILES += \
-    vendor/wingtech/volte/ramdisk/init.qcom.ims-64.rc:root/init.qcom.ims.rc
-endif
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/volte/overlay
