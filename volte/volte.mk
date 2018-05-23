@@ -33,12 +33,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
-# Ramdisk
-PRODUCT_COPY_FILES += \
-    vendor/wingtech/volte/ramdisk/init.qti.ims.sh:root/init.qti.ims.sh
-
-PRODUCT_COPY_FILES += \
-    vendor/wingtech/volte/ramdisk/init.qcom.ims-32.rc:root/init.qcom.ims.rc
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/volte/overlay
