@@ -33,6 +33,9 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
     vendor/wingtech/wt88047/proprietary/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
     vendor/wingtech/wt88047/proprietary/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/wingtech/wt88047/proprietary/framework/imscmlibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/imscmlibrary.jar \
+    vendor/wingtech/wt88047/proprietary/framework/qcnvitems.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcnvitems.jar \
+    vendor/wingtech/wt88047/proprietary/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/wingtech/wt88047/proprietary/etc/permissions/ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/ims.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
