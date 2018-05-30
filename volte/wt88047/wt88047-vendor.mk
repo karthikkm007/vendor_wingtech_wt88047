@@ -52,5 +52,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ims \
-    imssettings \
-    imscmlibrary
+    imssettings 

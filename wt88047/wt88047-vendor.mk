@@ -247,6 +247,4 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     shutdownlistener \
     TimeService \
-    qcrilmsgtunnel \
-    qcnvitems \
-    qcrilhook 
+    qcrilmsgtunnel 
