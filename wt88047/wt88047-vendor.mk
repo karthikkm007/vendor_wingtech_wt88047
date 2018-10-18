@@ -363,9 +363,17 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_akm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_akm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_yamaha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_yamaha.so
 
-#PRODUCT_COPY_FILES += \
-#    vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
-#    vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_gyroscope.so
+PRODUCT_COPY_FILES += \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_gyroscope.so
+
+PRODUCT_COPY_FILES += \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_common.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/libcalmodule_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_common.so
+
+PRODUCT_COPY_FILES += \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/sensors.wt88047.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.wt88047.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib64/sensors.wt88047.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.wt88047.so
 
 
 # STLport - from flo
