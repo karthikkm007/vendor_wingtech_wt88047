@@ -163,7 +163,6 @@ LOCAL_SRC_FILES := proprietary/vendor/framework/qti-telephony-common.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
