@@ -303,6 +303,37 @@ PRODUCT_COPY_FILES += \
 	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.0.so \
 	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 
+PRODUCT_COPY_FILES += \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.1.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
+	vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/android.hardware.broadcastradio@1.0.so:system/lib/android.hardware.broadcastradio@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/android.hardware.broadcastradio@1.1.so:system/lib/android.hardware.broadcastradio@1.1.so \
+	vendor/wingtech/wt88047/proprietary/lib/android.hardware.radio.config@1.0.so:system/lib/android.hardware.radio.config@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/android.hardware.radio.deprecated@1.0.so:system/lib/android.hardware.radio.deprecated@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/android.hardware.radio@1.0.so:system/lib/android.hardware.radio@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/android.hardware.radio@1.1.so:system/lib/android.hardware.radio@1.1.so \
+	vendor/wingtech/wt88047/proprietary/lib/android.hardware.radio@1.2.so:system/lib/android.hardware.radio@1.2.so \
+	vendor/wingtech/wt88047/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.am@1.0.so:system/lib/vendor.qti.hardware.radio.am@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:system/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.lpa@1.0.so:system/lib/vendor.qti.hardware.radio.lpa@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:system/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:system/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.qtiradio@2.0.so:system/lib/vendor.qti.hardware.radio.qtiradio@2.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.qtiradio@2.1.so:system/lib/vendor.qti.hardware.radio.qtiradio@2.1.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.uim@1.0.so:system/lib/vendor.qti.hardware.radio.uim@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.uim@1.1.so:system/lib/vendor.qti.hardware.radio.uim@1.1.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:system/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:system/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+
 
 PRODUCT_PACKAGES += \
     ims \
