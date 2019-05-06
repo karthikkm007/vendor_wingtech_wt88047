@@ -62,6 +62,8 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/wingtech/wt88047/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -97,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -182,6 +183,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
