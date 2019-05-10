@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/wingtech/wt88047/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/wingtech/wt88047/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/wingtech/wt88047/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/wingtech/wt88047/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
