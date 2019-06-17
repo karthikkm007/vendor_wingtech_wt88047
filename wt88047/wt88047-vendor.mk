@@ -269,25 +269,27 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
-	   vendor/wingtech/wt88047/proprietary/lib/com.quicinc.cne.api@1.0.so:system/lib/com.quicinc.cne.api@1.0.so \
-	   vendor/wingtech/wt88047/proprietary/lib/com.quicinc.cne.constants@1.0.so:system/lib/com.quicinc.cne.constants@1.0.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-dplmedia.so:system/lib/lib-dplmedia.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-imsSDP.so:system/lib/lib-imsSDP.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-imsdpl.so:system/lib/lib-imsdpl.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-imsqimf.so:system/lib/lib-imsqimf.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-imsxml.so:system/lib/lib-imsxml.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-rtpcommon.so:system/lib/lib-rtpcommon.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-rtpcore.so:system/lib/lib-rtpcore.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-rtpdaemoninterface.so:system/lib/lib-rtpdaemoninterface.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-rtpsl.so:system/lib/lib-rtpsl.so \
-	   vendor/wingtech/wt88047/proprietary/lib/lib-siputility.so:system/lib/lib-siputility.so \
-	   vendor/wingtech/wt88047/proprietary/lib/libandroid_net.so:system/lib/libandroid_net.so
+    vendor/wingtech/wt88047/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
+	vendor/wingtech/wt88047/proprietary/lib/com.quicinc.cne.api@1.0.so:system/lib/com.quicinc.cne.api@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/com.quicinc.cne.constants@1.0.so:system/lib/com.quicinc.cne.constants@1.0.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-dplmedia.so:system/lib/lib-dplmedia.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-imsSDP.so:system/lib/lib-imsSDP.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-imsdpl.so:system/lib/lib-imsdpl.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-imsqimf.so:system/lib/lib-imsqimf.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-imsxml.so:system/lib/lib-imsxml.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-rtpcommon.so:system/lib/lib-rtpcommon.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-rtpcore.so:system/lib/lib-rtpcore.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-rtpdaemoninterface.so:system/lib/lib-rtpdaemoninterface.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-rtpsl.so:system/lib/lib-rtpsl.so \
+	vendor/wingtech/wt88047/proprietary/lib/lib-siputility.so:system/lib/lib-siputility.so \
+	vendor/wingtech/wt88047/proprietary/lib/libandroid_net.so:system/lib/libandroid_net.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
